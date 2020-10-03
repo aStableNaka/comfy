@@ -4,6 +4,7 @@
   "description": "Communication library for all Coffee microservices",
   "main": "build/src/Index.js",
   "scripts": {
+    "git-workflow": "git add . && git commit -m \"Automated Push\" && git push origin master",
     "init": "npm install -D",
     "compile": "npm version patch --force && tsc -p tsconfig.json --diagnostics"
   },
