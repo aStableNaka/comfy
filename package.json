@@ -1,6 +1,6 @@
 {
   "name": "comfy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Communication library for all Coffee microservices",
   "main": "build/src/Index.js",
   "scripts": {
