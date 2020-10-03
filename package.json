@@ -31,5 +31,5 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "types": "./typings/Index.d.ts"
+  "types": "./src/Index.d.ts"
 }
