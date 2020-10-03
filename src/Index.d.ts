@@ -1,5 +1,5 @@
-import { Authenticate } from "./Auth";
+import { IncomingMessage } from "http";
 
 declare module "comfy"{
-	export {Authenticate};
+	function Authenticate( token: string, callback?: (res: IncomingMessage)=>void ): Promise<void>;	
 }
